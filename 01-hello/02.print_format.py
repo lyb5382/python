@@ -32,3 +32,18 @@ print("이름 : {}, 나이 : {}, data={}".format("이예빈", 24, 1.234))
 print("이름 : {1}, 나이 : {0}, data={2}".format(24, "이예빈", 1.234))
 print(format(1.23))
 print(format(1.23456,'.2f'))
+print('원주율 =', format(3.14))
+print('원주율 = {}'.format(3.14))
+print('원주율 = {}'.format(3.14))
+print('원주율 =', format(3.1415, '.2f'))
+print('정수 =', format(30000,'7d'))
+print('정수 =', format(300,'7d'))
+print('정수 =', format(30000,'3,d'))
+
+# f-string
+# 문자열을 만드는 따옴표(' ")앞에 알파벳 f(F)를 붙여줌
+# 문자열 내부에 변수를 넣고 싶은 자리에 {변수명}을 적음
+print('합은',3+5,'이다')
+print('합은 '+str(3+5)+' 이다')
+print('합은 %d 이다'%(3+5))
+print(f'합은 {3+5} 이다')

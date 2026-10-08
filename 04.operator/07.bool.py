@@ -1,0 +1,13 @@
+# 데이터가 있으면 True / 비어있거나 int 0이면 False / 문자열과 리스트는 비어있어야만 False(0은 True)
+
+print(bool('a'))
+print(bool(1))
+print(bool(0))
+print(bool('0'))
+print(bool(None))
+print(bool([]))
+print(bool([0]))
+print(bool(''))
+print(bool(' '))
+print(bool(True))
+print(bool(False))
