@@ -1,4 +1,3 @@
-# mkdir
 from pathlib import Path
 
 # 경로 저장?
@@ -9,6 +8,6 @@ with open(a, "w") as f:
     f.write("hi")
 
 with open("11-file/test3.txt", "w", encoding="utf-8") as f:
-    f.write("땅끝 땅끝도\n별끝 별끝도\n너를 따라갈 준비 돼있어")
+    f.write("땅끝 땅끝도\n하늘 별끝 별끝도\n너를 따라갈 준비 돼있어")
 with open("11-file/test3.txt", "r", encoding="utf-8") as f:
     print(f.read())
